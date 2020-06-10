@@ -1,0 +1,123 @@
+
+footer{
+   position: fixed;
+   bottom: 0px;
+    width: 100%;
+}
+
+.t{
+    display: flex;
+    justify-content: flex-end;
+}
+
+input{
+    font-size: 30px;
+    width: 500px;
+    border-radius: 20px;
+    border: 1px solid rgb(94, 93, 93);
+    box-shadow: darkgray 2px 2px;
+}
+
+.contenu{
+    text-align: center;
+    margin-top: 60px;
+  
+}
+
+.image{
+    height: 25px;
+    width: 25px;
+position: relative;
+right:40px ;
+  
+}
+.deux{
+    display: flex;
+    justify-content: center;
+
+   
+}
+.deux div{
+    margin: 15px;
+    background-color: rgb(242,242,242);
+    padding:0px 20px;
+    
+}
+a{
+    text-decoration: none;
+}
+.icone{
+height: 25px;
+width: 25px;
+margin-bottom: 5px;
+margin-left: 20px;
+}
+.icon{
+    width: 80px;
+    height: 30px;
+    margin-left: 20px;
+}
+.niger{
+    background-color: rgb(242,242,242);
+    height: 50px;
+    border: solid 1px gainsboro;
+    color:#969696;
+
+}
+.nige{
+    background-color: rgb(242,242,242);
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    border: solid 1px gainsboro;
+}
+.ge{
+ 
+}
+
+footer a{
+  display: inline-block;
+  margin-right: 10px;
+  color:#969696;
+}
+@media screen and (max-width:1280px){
+    .ecrit{
+        font-size: 16px;
+    }
+    .icone{
+        height: 15px;
+        width: 15px;
+        margin-bottom: 5px;
+    }
+    .icon{
+            width: 50px;
+            height: 20px;
+            margin-left: 20px;
+    }
+    input{
+        font-size: 25px;
+        width: 250px;
+        border-radius: 20px;
+        border: 1px solid rgb(94, 93, 93);
+        box-shadow: darkgray 2px 2px;
+    }.image{
+        height: 15px;
+        width: 15px;
+        position: relative;
+        right:30px ;
+    }
+    .ii{
+        width: 70px;
+        height: 70px;
+    }
+    .deux div{
+        margin: 10px;
+        background-color: rgb(242,242,242);
+        padding:0px 13Òx;
+        font-size: 15px;
+    }
+    footer{
+        font-size: 10px;
+    }
+    
+}
